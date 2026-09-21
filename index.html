@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3D Flower, CSS + JS</title>
   <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
+  <!-- Importación de la fuente cursiva estilo Signatura Monoline/Aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,19 +16,14 @@
   <div class="container" id="start-btn-container">
     <button id="start-btn" class="button"></button>
   </div>
-  <audio id="bg-music" src="musica/Mac Miller - Congratulations (feat. Bilal).mp3#t=30" preload="none"></audio>
+  <audio id="bg-music" src="musica/Mac Miller - Congratulations (feat. Bilal).mp3#t=30" preload="auto"></audio>
   <canvas id="galaxy-canvas" style="display:none;opacity:0;will-change:opacity;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:10;"></canvas>
   <div class="wrapper" style="display:none;">
       <div class="flower"></div>
   </div>
   <div class="flower-message" style="display:none;"></div>
 </div>
-<style>
-/* Eliminado keyframes spin: no se usa loader */
-</style>
-<!-- partial -->
-<script src="js/main.js" defer></script>
 
+<script src="js/main.js" defer></script>
 </body>
 </html>
-30
