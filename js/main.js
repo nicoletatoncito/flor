@@ -90,7 +90,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
   // 1. Mensajes iniciales dedicatorios
   const initialMessages = [
-    { text: 'Gino' },
+    { text: 'Hans' },
     { text: 'Te quiero mucho' },
     { text: 'Gracias por todo' },
     { text: '¡Eres especial❤️!' }
